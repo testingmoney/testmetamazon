@@ -44,31 +44,31 @@
 }
 @-webkit-keyframes fadeInMapMobile {
   0% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 278.5px 148px;
     transform: scale(1);
     opacity: 1;
   }
   25% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 278.5px 148px;
     transform: scale(0.9);
     opacity: 0.5;
   }
   50% {
-    background: url("/assets/img/mapphoto1.png") no-repeat;
+    background: url(../img/mapphoto1.png) no-repeat;
     background-size: 278.5px 148px;
     transform: scale(1);
     opacity: 1;
   }
   75% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 278.5px 148px;
     transform: scale(0.9);
     opacity: 0.5;
   }
   100% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 278.5px 148px;
     transform: scale(1);
     opacity: 1;
@@ -76,31 +76,31 @@
 }
 @keyframes fadeInMapMobile {
   0% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 278.5px 148px;
     transform: scale(1);
     opacity: 1;
   }
   25% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 278.5px 148px;
     transform: scale(0.9);
     opacity: 0.5;
   }
   50% {
-    background: url("/assets/img/mapphoto1.png") no-repeat;
+    background: url(../img/mapphoto1.png) no-repeat;
     background-size: 278.5px 148px;
     transform: scale(1);
     opacity: 1;
   }
   75% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 278.5px 148px;
     transform: scale(0.9);
     opacity: 0.5;
   }
   100% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 278.5px 148px;
     transform: scale(1);
     opacity: 1;
@@ -108,31 +108,31 @@
 }
 @-webkit-keyframes fadeInMap {
   0% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 557px 296px;
     transform: scale(1);
     opacity: 1;
   }
   25% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 557px 296px;
     transform: scale(0.9);
     opacity: 0.5;
   }
   50% {
-    background: url("/assets/img/mapphoto1.png") no-repeat;
+    background: url(../img/mapphoto1.png) no-repeat;
     background-size: 557px 296px;
     transform: scale(1);
     opacity: 1;
   }
   75% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 557px 296px;
     transform: scale(0.9);
     opacity: 0.5;
   }
   100% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 557px 296px;
     transform: scale(1);
     opacity: 1;
@@ -140,31 +140,31 @@
 }
 @keyframes fadeInMap {
   0% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 557px 296px;
     transform: scale(1);
     opacity: 1;
   }
   25% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 557px 296px;
     transform: scale(0.9);
     opacity: 0.5;
   }
   50% {
-    background: url("/assets/img/mapphoto1.png") no-repeat;
+    background: url(../img/mapphoto1.png) no-repeat;
     background-size: 557px 296px;
     transform: scale(1);
     opacity: 1;
   }
   75% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 557px 296px;
     transform: scale(0.9);
     opacity: 0.5;
   }
   100% {
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 557px 296px;
     transform: scale(1);
     opacity: 1;
@@ -925,7 +925,7 @@
   }
   body .marketsdrone .drone {
     display: flex;
-    background-image: url(/assets/img/bgdrone.png);
+    background-image: url(../img/bgdrone.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -1002,7 +1002,7 @@
     width: 250px;
   }
   body .map {
-    background-image: url(/assets/img/bgmap.png);
+    background-image: url(../img/bgmap.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -1021,7 +1021,7 @@
     margin-top: 20px;
     width: 278.5px;
     height: 148px;
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 278.5px 148px;
     -webkit-animation: fadeInMapMobile 10s alternate infinite;
             animation: fadeInMapMobile 10s alternate infinite;
@@ -1239,7 +1239,7 @@
     max-width: 294px;
   }
   body .project .bgj {
-    background-image: url(/assets/img/projectbg.png);
+    background-image: url(../img/projectbg.png);
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 100px;
@@ -1378,7 +1378,7 @@
   body .project .bgj .seconds .roadmappart {
     display: none;
     flex-direction: column;
-    background-image: url(/assets/img/roadmappart.png);
+    background-image: url(../img/roadmappart.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 80%;
@@ -1394,7 +1394,7 @@
     margin-left: -20px;
   }
   body .project .bgj .seconds .roadmappart .ups .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -1428,7 +1428,7 @@
     padding: 90px 100px 80px 70px;
   }
   body .project .bgj .seconds .roadmappart .downs .lefts .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 295.8px 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -1455,7 +1455,7 @@
     width: 240.07px;
   }
   body .project .bgj .seconds .roadmappart .downs .rights .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -1497,7 +1497,7 @@
     margin-left: -20px;
   }
   body .project .bgj .seconds .roadmappartmobile .ups .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -1529,7 +1529,7 @@
     width: 100%;
   }
   body .exchanges .containers {
-    background-image: url(/assets/img/exchangebgmobile.png);
+    background-image: url(../img/exchangebgmobile.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -1612,7 +1612,7 @@
     padding-top: 50px;
   }
   body .footer .container .pht {
-    background-image: url(/assets/img/footercornizemobile.png);
+    background-image: url(../img/footercornizemobile.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 140px;
@@ -2323,7 +2323,7 @@
   }
   body .marketsdrone .drone {
     display: flex;
-    background-image: url(/assets/img/bgdrone.png);
+    background-image: url(../img/bgdrone.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -2400,7 +2400,7 @@
     width: 450px;
   }
   body .map {
-    background-image: url(/assets/img/bgmap.png);
+    background-image: url(../img/bgmap.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -2419,7 +2419,7 @@
     margin-top: 20px;
     width: 557px;
     height: 296px;
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 557px 296px;
     -webkit-animation: fadeInMap 10s alternate infinite;
             animation: fadeInMap 10s alternate infinite;
@@ -2637,7 +2637,7 @@
     max-width: 294px;
   }
   body .project .bgj {
-    background-image: url(/assets/img/projectbg.png);
+    background-image: url(../img/projectbg.png);
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 100px;
@@ -2772,7 +2772,7 @@
   body .project .bgj .seconds .roadmappart {
     display: none;
     flex-direction: column;
-    background-image: url(/assets/img/roadmappart.png);
+    background-image: url(../img/roadmappart.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 80%;
@@ -2788,7 +2788,7 @@
     margin-left: -20px;
   }
   body .project .bgj .seconds .roadmappart .ups .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -2822,7 +2822,7 @@
     padding: 90px 100px 80px 70px;
   }
   body .project .bgj .seconds .roadmappart .downs .lefts .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 295.8px 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -2849,7 +2849,7 @@
     width: 240.07px;
   }
   body .project .bgj .seconds .roadmappart .downs .rights .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -2891,7 +2891,7 @@
     margin-left: -20px;
   }
   body .project .bgj .seconds .roadmappartmobile .ups .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -2923,7 +2923,7 @@
     width: 100%;
   }
   body .exchanges .containers {
-    background-image: url(/assets/img/exchangebgmobile.png);
+    background-image: url(../img/exchangebgmobile.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -3003,7 +3003,7 @@
     padding-top: 50px;
   }
   body .footer .container .pht {
-    background-image: url(/assets/img/footercornizemobile.png);
+    background-image: url(../img/footercornizemobile.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding-top: 140px;
@@ -3557,7 +3557,7 @@
   }
   body .marketsdrone .drone {
     display: flex;
-    background-image: url(/assets/img/bgdrone.png);
+    background-image: url(../img/bgdrone.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 350px;
@@ -3631,7 +3631,7 @@
     display: none;
   }
   body .map {
-    background-image: url(/assets/img/bgmap.png);
+    background-image: url(../img/bgmap.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -3652,7 +3652,7 @@
     margin-top: 20px;
     width: 557px;
     height: 296px;
-    background: url("/assets/img/mapphoto.png") no-repeat;
+    background: url(../img/mapphoto.png) no-repeat;
     background-size: 557px 296px;
     -webkit-animation: fadeInMap 10s alternate infinite;
             animation: fadeInMap 10s alternate infinite;
@@ -3865,7 +3865,7 @@
     max-width: 294px;
   }
   body .project .bgj {
-    background-image: url(/assets/img/projectbg.png);
+    background-image: url(../img/projectbg.png);
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 400px;
@@ -3992,7 +3992,7 @@
   body .project .bgj .seconds .roadmappart {
     display: flex;
     flex-direction: column;
-    background-image: url(/assets/img/roadmappart.png);
+    background-image: url(../img/roadmappart.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 80%;
@@ -4008,7 +4008,7 @@
     margin-left: -20px;
   }
   body .project .bgj .seconds .roadmappart .ups .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -4042,7 +4042,7 @@
     padding: 90px 100px 80px 70px;
   }
   body .project .bgj .seconds .roadmappart .downs .lefts .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 295.8px 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -4069,7 +4069,7 @@
     width: 240.07px;
   }
   body .project .bgj .seconds .roadmappart .downs .rights .boxs {
-    background-image: url(/assets/img/frameroad.png);
+    background-image: url(../img/frameroad.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -4103,7 +4103,7 @@
     width: 100%;
   }
   body .exchanges .containers {
-    background-image: url(/assets/img/exchangebg.png);
+    background-image: url(../img/exchangebg.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -4183,7 +4183,7 @@
     padding-top: 50px;
   }
   body .footer .container .pht {
-    background-image: url(/assets/img/footercornize.png);
+    background-image: url(../img/footercornize.png);
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 140px;
