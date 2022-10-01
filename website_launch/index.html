@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="first">
+        <div class="nav ">
+            <div class="left">
+                <img src="assets/img/logometamazon.png" alt="">
+            </div>
+            <div class="mid">
+                <a href="">Website Countdown<img src="assets/img/clock.png" alt=""></a>
+                
+            </div>
+            <div class="right">
+                <a href=""><img class="im1" src="assets/img/discord.png" alt=""></a>
+                <a href=""><img class="im2" src="assets/img/telegram.png" alt=""></a>
+                <a href=""><img class="im3" src="assets/img/twitter.png" alt=""></a>
+                <a href=""><img class="im4" src="assets/img/instagram.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="navmobile ">
+            <div class="left">
+                <img src="assets/img/logometamazon.png" alt="">
+            </div>
+        </div>
+        <div class="firstsection" id="home">
+            <div class="left">
+                <div class="up">
+                    <p class="texxt">The virtual shopping that you dreamed of!</p>
+                </div>
+                <div class="mid">
+                    <p>With MetAmazon you will be able to spend your cryptocurrencies 
+                        in the MetAmazon's Shop in the metaverse. 
+                        Moreover, you will be able to deliver the products 
+                        anywhere and anytime with MetAmazon Drone. </p>
+                </div>
+                <div class="down">
+                    <div class="firsts">
+                        <p id="days"></p>
+                        <p class="txtclock">Days</p>
+                    </div>
+                    <div class="dots">
+                        <img class="desktop" src="assets/img/twodots.png" alt="">
+                        <img class="mobile" src="assets/img/twodotsmobile.png" alt="">
+                    </div>
+                    <div class="firsts">
+                        <p id="hours"></p>
+                        <p class="txtclock">Hours</p>
+                    </div>
+                    <div class="dots">
+                        <img class="desktop" src="assets/img/twodots.png" alt="">
+                        <img class="mobile" src="assets/img/twodotsmobile.png" alt="">
+
+                    </div>
+                    <div class="firsts">
+                        <p id="minutes"></p>
+                        <p class="txtclock">Minutes</p>
+                    </div>
+                    <div class="dots">
+                        <img class="desktop" src="assets/img/twodots.png" alt="">
+                        <img class="mobile" src="assets/img/twodotsmobile.png" alt="">
+
+                    </div>
+                    <div class="firsts">
+                        <p id="seconds"></p>
+                        <p class="txtclock" id="end">Seconds</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="socialmobile">
+                <div class="right">
+                    <a href=""><img class="im1" src="assets/img/discord.png" alt=""></a>
+                    <a href=""><img class="im2" src="assets/img/telegram.png" alt=""></a>
+                    <a href=""><img class="im3" src="assets/img/twitter.png" alt=""></a>
+                    <a href=""><img class="im4" src="assets/img/instagram.png" alt=""></a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="assets/img/head.png" alt="">
+            </div>
+        </div>
+
+        
+    </div>
+    
+</body>
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Dec 5, 2022 15:37:25").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+
+      if (days <10) {
+        days = "0" +days;
+      }
+      if (hours <10) {
+        hours = "0" +hours;
+      }
+      if (minutes <10) {
+        minutes = "0" +minutes;
+      }
+      if (seconds <10) {
+        seconds = "0" +seconds;
+      }
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
+</html>

@@ -1,0 +1,532 @@
+@font-face {
+  font-family: "Satoshi-Black";
+  src: url("../fonts/fonts/Satoshi-Black.woff2") format("woff2"), url("../fonts/fonts/Satoshi-Black.woff") format("woff"), url("../fonts/fonts/Satoshi-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-Bold";
+  src: url("../fonts/fonts/Satoshi-Bold.woff2") format("woff2"), url("../fonts/fonts/Satoshi-Bold.woff") format("woff"), url("../fonts/fonts/Satoshi-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-Medium";
+  src: url("../fonts/fonts/Satoshi-Medium.woff2") format("woff2"), url("../fonts/fonts/Satoshi-Medium.woff") format("woff"), url("../fonts/fonts/Satoshi-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Satoshi-Regular";
+  src: url("../fonts/fonts/Satoshi-Regular.woff2") format("woff2"), url("../fonts/fonts/Satoshi-Regular.woff") format("woff"), url("../fonts/fonts/Satoshi-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: #021142;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Satoshi-Regular";
+    color: white;
+  }
+  body .first {
+    background-image: url(../img/First-Bg-up.png);
+    background-size: 100% 100%;
+  }
+  body .first .navmobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../img/nav.png);
+    /* Note: backdrop-filter has minimal browser support */
+  }
+  body .first .navmobile .left img {
+    margin-top: 15px;
+    width: 150px;
+  }
+  body .first .navmobile .mid {
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px;
+  }
+  body .first .navmobile .mid a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 28px 40px;
+    font-family: "Satoshi-Medium";
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  body .first .navmobile .mid a span {
+    color: transparent;
+  }
+  body .first .navmobile .mid a:hover {
+    border: 2px solid white;
+    padding: 26px 38px;
+    -webkit-animation: fadeInNavbar 0.5s;
+            animation: fadeInNavbar 0.5s;
+  }
+  body .first .navmobile .right img {
+    margin-top: 5px;
+    width: 50px;
+  }
+  body .first .nav {
+    display: none;
+  }
+  body .first .firstsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body .first .firstsection .left {
+    width: 95%;
+    margin: 0 auto;
+  }
+  body .first .firstsection .left .up .texxt {
+    margin-top: 30px;
+    max-width: 589px;
+    font-family: "Satoshi-Black";
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: -20px;
+  }
+  body .first .firstsection .left .mid {
+    background-image: url(../img/txt3bgmobilepng.png);
+    background-size: 100% 100%;
+  }
+  body .first .firstsection .left .mid p {
+    margin-top: 50px;
+    padding: 10px 40px 10px 10px;
+    max-width: 564px;
+    font-family: "Satoshi-Medium";
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #CFCFCF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  body .first .firstsection .left .down {
+    background-image: url(../img/countdownmobile.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: -20px;
+    margin-top: 40px;
+    padding-bottom: 55px;
+    padding-top: 35px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .first .firstsection .left .down .dots .desktop {
+    display: none;
+  }
+  body .first .firstsection .left .down .dots .mobile {
+    width: 50px;
+    margin-top: 40px;
+  }
+  body .first .firstsection .left .down .firsts p {
+    font-family: "Satoshi-Black";
+    font-size: 50px;
+    line-height: 86px;
+    letter-spacing: 0.03em;
+    margin: 15px;
+    color: #fff;
+    margin: 0px 10px;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: -20px;
+    padding: 0px;
+    min-width: 50px;
+  }
+  body .first .firstsection .left .down .firsts .txtclock {
+    margin-top: -10px;
+    font-family: "Satoshi-Medium";
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #0A1965;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  body .first .firstsection .socialmobile {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  body .first .firstsection .socialmobile .right {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  body .first .firstsection .socialmobile .right .im1 {
+    width: 25.6464px;
+    margin: 30px 15px 0px 0px;
+  }
+  body .first .firstsection .socialmobile .right .im2 {
+    width: 22.9536px;
+    margin: 30px 15px 0px 15px;
+  }
+  body .first .firstsection .socialmobile .right .im3 {
+    width: 22.9536px;
+    margin: 30px 15px 0px 15px;
+  }
+  body .first .firstsection .socialmobile .right .im4 {
+    width: 22.9536px;
+    margin: 30px 0px 0px 15px;
+  }
+  body .first .firstsection .right {
+    display: flex;
+    justify-content: end;
+  }
+  body .first .firstsection .right img {
+    width: 252px;
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
+  body {
+    background-color: #021142;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Satoshi-Regular";
+    color: white;
+  }
+  body .first {
+    background-image: url(../img/First-Bg-up.png);
+    background-size: 100% 100%;
+  }
+  body .first .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../img/nav.png);
+    /* Note: backdrop-filter has minimal browser support */
+  }
+  body .first .nav .left img {
+    margin-top: 15px;
+    width: 150px;
+  }
+  body .first .nav .mid {
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px;
+  }
+  body .first .nav .mid a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 28px 40px;
+    font-family: "Satoshi-Medium";
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  body .first .nav .mid a img {
+    margin-left: 7px;
+    margin-bottom: -2px;
+    width: 15px;
+    height: 15px;
+  }
+  body .first .nav .mid a:hover {
+    border: 2px solid white;
+    padding: 26px 38px;
+    -webkit-animation: fadeInNavbar 0.5s;
+            animation: fadeInNavbar 0.5s;
+  }
+  body .first .nav .right .im1 {
+    width: 18.6464px;
+    margin: 20px 15px 0px 0px;
+  }
+  body .first .nav .right .im2 {
+    width: 18.9536px;
+    margin: 20px 15px 0px 15px;
+  }
+  body .first .nav .right .im3 {
+    width: 18.9536px;
+    margin: 20px 15px 0px 15px;
+  }
+  body .first .nav .right .im4 {
+    width: 18.9536px;
+    margin: 20px 0px 0px 15px;
+  }
+  body .first .navmobile {
+    display: none;
+  }
+  body .first .firstsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body .first .firstsection .left {
+    margin-left: 50px;
+  }
+  body .first .firstsection .left .up .texxt {
+    margin-top: 30px;
+    max-width: 589px;
+    font-family: "Satoshi-Black";
+    font-size: 40px;
+    line-height: 86px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: -20px;
+  }
+  body .first .firstsection .left .mid {
+    background-image: url(../img/txt3bg.png);
+    background-size: 100% 100%;
+    max-width: 589px;
+  }
+  body .first .firstsection .left .mid p {
+    padding: 50px 40px 10px 10px;
+    max-width: 564px;
+    font-family: "Satoshi-Medium";
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #CFCFCF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  body .first .firstsection .left .down {
+    background-image: url(../img/countdown.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-left: -20px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    max-width: 589px;
+  }
+  body .first .firstsection .left .down p {
+    font-family: "Satoshi-Black";
+    font-size: 55px;
+    line-height: 86px;
+    letter-spacing: 0.03em;
+    margin: 15px;
+    color: #fff;
+    margin: 0px 10px;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0px;
+    min-width: 80px;
+  }
+  body .first .firstsection .left .down .dots img {
+    width: 10px;
+    margin-top: 40px;
+  }
+  body .first .firstsection .left .down .txtclock {
+    margin-top: -10px;
+    font-family: "Satoshi-Medium";
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #0A1965;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  body .first .firstsection .left .down .mobile {
+    display: none;
+  }
+  body .first .firstsection .left .down #days {
+    background-image: url(../img/bg_number.png);
+    background-size: 100% 100%;
+  }
+  body .first .firstsection .left .down #hours {
+    background-image: url(../img/bg_number.png);
+    background-size: 100% 100%;
+  }
+  body .first .firstsection .left .down #minutes {
+    background-image: url(../img/bg_number.png);
+    background-size: 100% 100%;
+  }
+  body .first .firstsection .left .down #seconds {
+    background-image: url(../img/bg_number.png);
+    background-size: 100% 100%;
+  }
+  body .first .firstsection .socialmobile {
+    display: none;
+  }
+  body .first .firstsection .right img {
+    width: 252px;
+    margin-top: 50px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  body {
+    background-color: #021142;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Satoshi-Regular";
+    color: white;
+  }
+  body .first {
+    background-image: url(../img/First-Bg-up.png);
+    background-size: 100% 100%;
+  }
+  body .first .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(../img/nav.png);
+    /* Note: backdrop-filter has minimal browser support */
+  }
+  body .first .nav .left img {
+    margin-top: 15px;
+    width: 150px;
+  }
+  body .first .nav .mid {
+    display: flex;
+    flex-direction: row;
+    margin-left: -100px;
+  }
+  body .first .nav .mid a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 28px 40px;
+    margin-left: 50px;
+    font-family: "Satoshi-Medium";
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  body .first .nav .mid a img {
+    margin-left: 7px;
+    margin-bottom: -5px;
+    width: 23px;
+    height: 23px;
+  }
+  body .first .nav .mid a:hover {
+    border: 2px solid white;
+    padding: 26px 38px;
+    -webkit-animation: fadeInNavbar 0.5s;
+            animation: fadeInNavbar 0.5s;
+  }
+  body .first .nav .right .im1 {
+    width: 25.6464px;
+    margin: 30px 15px 0px 0px;
+  }
+  body .first .nav .right .im2 {
+    width: 22.9536px;
+    margin: 30px 15px 0px 15px;
+  }
+  body .first .nav .right .im3 {
+    width: 22.9536px;
+    margin: 30px 15px 0px 15px;
+  }
+  body .first .nav .right .im4 {
+    width: 22.9536px;
+    margin: 30px 0px 0px 15px;
+  }
+  body .first .navmobile {
+    display: none;
+  }
+  body .first .firstsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body .first .firstsection .left {
+    margin-left: 110px;
+  }
+  body .first .firstsection .left .up .texxt {
+    margin-top: 10px;
+    max-width: 789px;
+    font-family: "Satoshi-Black";
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: -20px;
+  }
+  body .first .firstsection .left .mid {
+    background-image: url(../img/txt3bg.png);
+    background-size: 100% 100%;
+    max-width: 589px;
+  }
+  body .first .firstsection .left .mid p {
+    padding: 50px 40px 10px 10px;
+    max-width: 564px;
+    font-family: "Satoshi-Medium";
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #CFCFCF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  body .first .firstsection .left .down {
+    background-image: url(../img/countdown.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-left: -20px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    max-width: 589px;
+  }
+  body .first .firstsection .left .down .mobile {
+    display: none;
+  }
+  body .first .firstsection .left .down p {
+    font-family: "Satoshi-Black";
+    font-size: 55px;
+    line-height: 86px;
+    letter-spacing: 0.03em;
+    margin: 15px;
+    color: #fff;
+    margin: 0px 10px;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0px;
+    min-width: 80px;
+  }
+  body .first .firstsection .left .down .dots img {
+    width: 10px;
+    margin-top: 40px;
+  }
+  body .first .firstsection .left .down .txtclock {
+    margin-top: -10px;
+    font-family: "Satoshi-Medium";
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #0A1965;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+  body .first .firstsection .left .down #days {
+    background-image: url(../img/bg_number.png);
+    background-size: 100% 100%;
+  }
+  body .first .firstsection .left .down #hours {
+    background-image: url(../img/bg_number.png);
+    background-size: 100% 100%;
+  }
+  body .first .firstsection .left .down #minutes {
+    background-image: url(../img/bg_number.png);
+    background-size: 100% 100%;
+  }
+  body .first .firstsection .left .down #seconds {
+    background-image: url(../img/bg_number.png);
+    background-size: 100% 100%;
+  }
+  body .first .firstsection .socialmobile {
+    display: none;
+  }
+  body .first .firstsection .right img {
+    width: 352px;
+    margin-top: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */

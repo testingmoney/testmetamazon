@@ -2094,7 +2094,7 @@
     }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (min-width: 769px) and (max-width: 1199px) {
     body {
         background-color: #021142;
         margin: 0px;
